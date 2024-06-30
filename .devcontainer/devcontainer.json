@@ -1,0 +1,23 @@
+{
+    "build": {
+        // Path is relative to the devcontainer.json file.
+        "dockerfile": "../Dockerfile"
+    },
+    // Configure tool-specific properties.
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "ms-dotnettools.csdevkit",
+                "ms-dotnettools.vscodeintellicode-csharp",
+                "redhat.vscode-yaml",
+                "vscjava.vscode-java-pack",
+                "vmware.vscode-boot-dev-pack",
+                "redhat.vscode-xml",
+                "redhat.fabric8-analytics",
+                "DavidAnson.vscode-markdownlint"
+            ]
+        }
+    }
+}
